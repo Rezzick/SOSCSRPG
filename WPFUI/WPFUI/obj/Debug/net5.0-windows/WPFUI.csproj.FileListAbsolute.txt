@@ -22,3 +22,5 @@ C:\Users\jarin\myprojects\WPFUI\WPFUI\obj\Debug\net5.0-windows\WPFUI.dll
 C:\Users\jarin\myprojects\WPFUI\WPFUI\obj\Debug\net5.0-windows\ref\WPFUI.dll
 C:\Users\jarin\myprojects\WPFUI\WPFUI\obj\Debug\net5.0-windows\WPFUI.pdb
 C:\Users\jarin\myprojects\WPFUI\WPFUI\obj\Debug\net5.0-windows\WPFUI.genruntimeconfig.cache
+C:\Users\jarin\myprojects\WPFUI\WPFUI\obj\Debug\net5.0-windows\TradeScreen.baml
+C:\Users\jarin\myprojects\WPFUI\WPFUI\obj\Debug\net5.0-windows\TradeScreen.g.cs
