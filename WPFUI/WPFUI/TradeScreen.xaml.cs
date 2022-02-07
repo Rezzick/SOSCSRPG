@@ -19,9 +19,9 @@ namespace WPFUI
         {
             GroupedInventoryItem groupedInventoryItem = ((FrameworkElement)sender).DataContext as GroupedInventoryItem;
 
-            if(groupedInventoryItem != null)
+            if (groupedInventoryItem != null)
             {
-                Session.CurrentPlayer.Gold += groupedInventoryItem.Item.Price;
+                Session.CurrentPlayer.ReceiveGold(groupedInventoryItem.Item.Price);
                 Session.CurrentTrader.AddItemToInventory(groupedInventoryItem.Item);
                 Session.CurrentPlayer.RemoveItemFromInventory(groupedInventoryItem.Item);
             }
@@ -33,9 +33,9 @@ namespace WPFUI
 
             if (groupedInventoryItem != null)
             {
-                if(Session.CurrentPlayer.Gold >= groupedInventoryItem.Item.Price)
+                if (Session.CurrentPlayer.Gold >= groupedInventoryItem.Item.Price)
                 {
-                    Session.CurrentPlayer.Gold -= groupedInventoryItem.Item.Price;
+                    Session.CurrentPlayer.SpendGold(groupedInventoryItem.Item.Price);
                     Session.CurrentTrader.RemoveItemFromInventory(groupedInventoryItem.Item);
                     Session.CurrentPlayer.AddItemToInventory(groupedInventoryItem.Item);
                 }
