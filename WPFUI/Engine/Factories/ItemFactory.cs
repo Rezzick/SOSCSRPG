@@ -33,7 +33,6 @@ namespace Engine.Factories
             BuildMiscellaneousItem(9006, "Spider silk", 2);
         }
 
-
         public static GameItem CreateGameItem(int itemTypeID)
         {
             return _standardGameItems.FirstOrDefault(item => item.ItemTypeID == itemTypeID)?.Clone();
@@ -58,6 +57,11 @@ namespace Engine.Factories
             GameItem item = new GameItem(GameItem.ItemCategory.Consumable, id, name, price);
             item.Action = new Heal(item, hitPointsToHeal);
             _standardGameItems.Add(item);
+        }
+
+        public static string ItemName(int itemTypeID)
+        {
+            return _standardGameItems.FirstOrDefault(i => i.ItemTypeID == itemTypeID)?.Name ?? "";
         }
     }
 }
