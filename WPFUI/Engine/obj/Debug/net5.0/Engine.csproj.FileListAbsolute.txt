@@ -11,3 +11,4 @@ C:\Users\jarin\myprojects\WPFUI\Engine\obj\Debug\net5.0\Engine.csproj.CoreCompil
 C:\Users\jarin\myprojects\WPFUI\Engine\obj\Debug\net5.0\Engine.dll
 C:\Users\jarin\myprojects\WPFUI\Engine\obj\Debug\net5.0\ref\Engine.dll
 C:\Users\jarin\myprojects\WPFUI\Engine\obj\Debug\net5.0\Engine.pdb
+C:\Users\jarin\myprojects\WPFUI\Engine\bin\Debug\net5.0\GameData\GameItems.xml
