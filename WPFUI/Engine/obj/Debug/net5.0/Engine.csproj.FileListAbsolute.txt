@@ -1,6 +1,9 @@
 C:\Users\jarin\myprojects\WPFUI\Engine\bin\Debug\net5.0\GameData\GameItems.xml
 C:\Users\jarin\myprojects\WPFUI\Engine\bin\Debug\net5.0\GameData\Locations.xml
 C:\Users\jarin\myprojects\WPFUI\Engine\bin\Debug\net5.0\GameData\Monsters.xml
+C:\Users\jarin\myprojects\WPFUI\Engine\bin\Debug\net5.0\GameData\Quests.xml
+C:\Users\jarin\myprojects\WPFUI\Engine\bin\Debug\net5.0\GameData\Recipes.xml
+C:\Users\jarin\myprojects\WPFUI\Engine\bin\Debug\net5.0\GameData\Traders.xml
 C:\Users\jarin\myprojects\WPFUI\Engine\bin\Debug\net5.0\Images\Locations\FarmFields.png
 C:\Users\jarin\myprojects\WPFUI\Engine\bin\Debug\net5.0\Images\Locations\Farmhouse.png
 C:\Users\jarin\myprojects\WPFUI\Engine\bin\Debug\net5.0\Images\Locations\HerbalistsGarden.png
@@ -17,6 +20,7 @@ C:\Users\jarin\myprojects\WPFUI\Engine\bin\Debug\net5.0\Engine.deps.json
 C:\Users\jarin\myprojects\WPFUI\Engine\bin\Debug\net5.0\Engine.dll
 C:\Users\jarin\myprojects\WPFUI\Engine\bin\Debug\net5.0\ref\Engine.dll
 C:\Users\jarin\myprojects\WPFUI\Engine\bin\Debug\net5.0\Engine.pdb
+C:\Users\jarin\myprojects\WPFUI\Engine\obj\Debug\net5.0\Engine.csproj.AssemblyReference.cache
 C:\Users\jarin\myprojects\WPFUI\Engine\obj\Debug\net5.0\Engine.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\jarin\myprojects\WPFUI\Engine\obj\Debug\net5.0\Engine.AssemblyInfoInputs.cache
 C:\Users\jarin\myprojects\WPFUI\Engine\obj\Debug\net5.0\Engine.AssemblyInfo.cs
@@ -24,7 +28,3 @@ C:\Users\jarin\myprojects\WPFUI\Engine\obj\Debug\net5.0\Engine.csproj.CoreCompil
 C:\Users\jarin\myprojects\WPFUI\Engine\obj\Debug\net5.0\Engine.dll
 C:\Users\jarin\myprojects\WPFUI\Engine\obj\Debug\net5.0\ref\Engine.dll
 C:\Users\jarin\myprojects\WPFUI\Engine\obj\Debug\net5.0\Engine.pdb
-C:\Users\jarin\myprojects\WPFUI\Engine\obj\Debug\net5.0\Engine.csproj.AssemblyReference.cache
-C:\Users\jarin\myprojects\WPFUI\Engine\bin\Debug\net5.0\GameData\Quests.xml
-C:\Users\jarin\myprojects\WPFUI\Engine\bin\Debug\net5.0\GameData\Recipes.xml
-C:\Users\jarin\myprojects\WPFUI\Engine\bin\Debug\net5.0\GameData\Traders.xml
