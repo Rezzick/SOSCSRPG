@@ -42,3 +42,6 @@ C:\Users\jarin\myprojects\WPFUI\WPFUI\bin\Debug\net5.0-windows\WPFUI.runtimeconf
 C:\Users\jarin\myprojects\WPFUI\WPFUI\bin\Debug\net5.0-windows\ref\WPFUI.dll
 C:\Users\jarin\myprojects\WPFUI\WPFUI\bin\Debug\net5.0-windows\WPFUI.pdb
 C:\Users\jarin\myprojects\WPFUI\WPFUI\obj\Debug\net5.0-windows\WPFUI.genruntimeconfig.cache
+C:\Users\jarin\myprojects\WPFUI\WPFUI\bin\Debug\net5.0-windows\GameData\Quests.xml
+C:\Users\jarin\myprojects\WPFUI\WPFUI\bin\Debug\net5.0-windows\GameData\Recipes.xml
+C:\Users\jarin\myprojects\WPFUI\WPFUI\bin\Debug\net5.0-windows\GameData\Traders.xml

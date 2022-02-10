@@ -1,5 +1,4 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Xml;
 using Engine.Models;
 using Engine.Shared;
@@ -62,7 +61,7 @@ namespace Engine.Factories
                 return;
             }
 
-            location.TraderHere = TraderFactory.GetTraderByName(traderHere.AttributeAsString("Name"));
+            location.TraderHere = TraderFactory.GetTraderByID(traderHere.AttributeAsInt("ID"));
         }
 
         private static void AddQuests(Location location, XmlNodeList quests)

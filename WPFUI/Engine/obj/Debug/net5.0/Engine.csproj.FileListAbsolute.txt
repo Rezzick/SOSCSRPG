@@ -25,3 +25,6 @@ C:\Users\jarin\myprojects\WPFUI\Engine\obj\Debug\net5.0\Engine.dll
 C:\Users\jarin\myprojects\WPFUI\Engine\obj\Debug\net5.0\ref\Engine.dll
 C:\Users\jarin\myprojects\WPFUI\Engine\obj\Debug\net5.0\Engine.pdb
 C:\Users\jarin\myprojects\WPFUI\Engine\obj\Debug\net5.0\Engine.csproj.AssemblyReference.cache
+C:\Users\jarin\myprojects\WPFUI\Engine\bin\Debug\net5.0\GameData\Quests.xml
+C:\Users\jarin\myprojects\WPFUI\Engine\bin\Debug\net5.0\GameData\Recipes.xml
+C:\Users\jarin\myprojects\WPFUI\Engine\bin\Debug\net5.0\GameData\Traders.xml
