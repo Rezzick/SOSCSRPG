@@ -9,6 +9,8 @@ namespace Engine.ViewModels
     {
         private readonly MessageBroker _messageBroker = MessageBroker.GetInstance();
 
+        private Battle _currentBattle;
+
         #region Properties
 
         private Player _currentPlayer;
@@ -20,30 +22,28 @@ namespace Engine.ViewModels
 
         public Player CurrentPlayer
         {
-            get { return _currentPlayer; }
+            get => _currentPlayer;
             set
             {
                 if (_currentPlayer != null)
                 {
-                    _currentPlayer.OnActionPerformed -= OnCurrentPlayerPerformedAction;
                     _currentPlayer.OnLeveledUp -= OnCurrentPlayerLeveledUp;
-                    _currentPlayer.OnKilled -= OnCurrentPlayerKilled;
+                    _currentPlayer.OnKilled -= OnPlayerKilled;
                 }
 
                 _currentPlayer = value;
 
                 if (_currentPlayer != null)
                 {
-                    _currentPlayer.OnActionPerformed += OnCurrentPlayerPerformedAction;
                     _currentPlayer.OnLeveledUp += OnCurrentPlayerLeveledUp;
-                    _currentPlayer.OnKilled += OnCurrentPlayerKilled;
+                    _currentPlayer.OnKilled += OnPlayerKilled;
                 }
             }
         }
 
         public Location CurrentLocation
         {
-            get { return _currentLocation; }
+            get => _currentLocation;
             set
             {
                 _currentLocation = value;
@@ -56,7 +56,7 @@ namespace Engine.ViewModels
 
                 CompleteQuestsAtLocation();
                 GivePlayerQuestsAtLocation();
-                GetMonsterAtLocation();
+                CurrentMonster = CurrentLocation.GetMonster();
 
                 CurrentTrader = CurrentLocation.TraderHere;
             }
@@ -64,24 +64,23 @@ namespace Engine.ViewModels
 
         public Monster CurrentMonster
         {
-            get { return _currentMonster; }
+            get => _currentMonster;
             set
             {
-                if (_currentMonster != null)
+                if (_currentBattle != null)
                 {
-                    _currentMonster.OnActionPerformed -= OnCurrentMonsterPerformedAction;
-                    _currentMonster.OnKilled -= OnCurrentMonsterKilled;
+                    _currentBattle.OnCombatVictory -= OnCurrentMonsterKilled;
+                    _currentBattle.Dispose();
                 }
 
                 _currentMonster = value;
 
                 if (_currentMonster != null)
                 {
-                    _currentMonster.OnActionPerformed += OnCurrentMonsterPerformedAction;
-                    _currentMonster.OnKilled += OnCurrentMonsterKilled;
+                    _currentBattle = new Battle(CurrentPlayer, CurrentMonster);
 
-                    _messageBroker.RaiseMessage("");
-                    _messageBroker.RaiseMessage($"You see a {CurrentMonster.Name} here!");
+                    _currentBattle.OnCombatVictory += OnCurrentMonsterKilled;
+
                 }
 
                 OnPropertyChanged();
@@ -92,7 +91,7 @@ namespace Engine.ViewModels
 
         public Trader CurrentTrader
         {
-            get { return _currentTrader; }
+            get => _currentTrader;
             set
             {
                 _currentTrader = value;
@@ -241,36 +240,10 @@ namespace Engine.ViewModels
             }
         }
 
-        private void GetMonsterAtLocation()
-        {
-            CurrentMonster = CurrentLocation.GetMonster();
-        }
 
         public void AttackCurrentMonster()
         {
-            if (CurrentMonster == null)
-            {
-                return;
-            }
-
-            if (CurrentPlayer.CurrentWeapon == null)
-            {
-                _messageBroker.RaiseMessage("You must select a weapon, to attack.");
-                return;
-            }
-
-            CurrentPlayer.UseCurrentWeaponOn(CurrentMonster);
-
-            if (CurrentMonster.IsDead)
-            {
-                // Get another monster to fight
-                GetMonsterAtLocation();
-            }
-            else
-            {
-                //  Let the monster attack
-                CurrentMonster.UseCurrentWeaponOn(CurrentPlayer);
-            }
+            _currentBattle.AttackOpponent();
         }
 
         public void UseCurrentConsumable()
@@ -307,17 +280,7 @@ namespace Engine.ViewModels
             }
         }
 
-        private void OnCurrentPlayerPerformedAction(object sender, string result)
-        {
-            _messageBroker.RaiseMessage(result);
-        }
-
-        private void OnCurrentMonsterPerformedAction(object sender, string result)
-        {
-            _messageBroker.RaiseMessage(result);
-        }
-
-        private void OnCurrentPlayerKilled(object sender, System.EventArgs eventArgs)
+        private void OnPlayerKilled(object sender, System.EventArgs eventArgs)
         {
             _messageBroker.RaiseMessage("");
             _messageBroker.RaiseMessage($"You have been killed.");
@@ -328,20 +291,8 @@ namespace Engine.ViewModels
 
         private void OnCurrentMonsterKilled(object sender, System.EventArgs eventArgs)
         {
-            _messageBroker.RaiseMessage("");
-            _messageBroker.RaiseMessage($"You defeated the {CurrentMonster.Name}!");
-
-            _messageBroker.RaiseMessage($"You receive {CurrentMonster.RewardExperiencePoints} experience points.");
-            CurrentPlayer.AddExperience(CurrentMonster.RewardExperiencePoints);
-
-            _messageBroker.RaiseMessage($"You receive {CurrentMonster.Gold} gold.");
-            CurrentPlayer.ReceiveGold(CurrentMonster.Gold);
-
-            foreach(GameItem gameItem in CurrentMonster.Inventory.Items)
-            {
-                _messageBroker.RaiseMessage($"You receive one {gameItem.Name}.");
-                CurrentPlayer.AddItemToInventory(gameItem);
-            }
+            // Get another monster to fight
+            CurrentMonster = CurrentLocation.GetMonster();
         }
 
         private void OnCurrentPlayerLeveledUp(object sender, System.EventArgs eventArgs)
