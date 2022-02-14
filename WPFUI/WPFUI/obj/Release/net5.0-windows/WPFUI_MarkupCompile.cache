@@ -10,11 +10,11 @@ none
 false
 TRACE;RELEASE;NET;NET5_0;NETCOREAPP
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\App.xaml
-2-1781386626
+3573045350
 
-5-975278994
-194-1731641051
-MainWindow.xaml;TradeScreen.xaml;
+6-260956501
+195-329498212
+MainWindow.xaml;TradeScreen.xaml;Windows\YesNoWindow.xaml;
 
 True
 

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ylrrdOS/i8qLsLdyjx5TwsxXxB0Q0OBAdutUFglHioQb07f+LNk8baEXp72wfPURlVcKusY0EXyQQmvSz5TFfA==",
+  "dgSpecHash": "ujXkqSrUHYZYeGWDa1+X5z4HHzLemWaguPdFVATMII19VOn9U/VpijVGxh/xpekiGgTYCQH4oG0P1M8AakMgfw==",
   "success": true,
   "projectFilePath": "C:\\Projects\\SOSCSRPG\\WPFUI\\Engine\\Engine.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jason.maxwell\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

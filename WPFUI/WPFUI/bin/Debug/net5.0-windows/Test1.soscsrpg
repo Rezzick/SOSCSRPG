@@ -1,0 +1,50 @@
+{
+  "CurrentPlayer": {
+    "Name": "Jason",
+    "CharacterClass": "Fighter",
+    "Dexterity": 16,
+    "CurrentHitPoints": 7,
+    "Gold": 1000001,
+    "ExperiencePoints": 5,
+    "Level": 1,
+    "Inventory": {
+      "Items": [
+        {
+          "ItemTypeID": 1001
+        },
+        {
+          "ItemTypeID": 2001
+        },
+        {
+          "ItemTypeID": 9001
+        },
+        {
+          "ItemTypeID": 9002
+        }
+      ]
+    },
+    "Quests": [
+      {
+        "PlayerQuest": {
+          "ID": 1
+        },
+        "IsCompleted": false
+      }
+    ],
+    "Recipes": [
+      {
+        "ID": 1
+      }
+    ],
+    "CurrentWeapon": {
+      "ItemTypeID": 1001
+    },
+    "CurrentConsumable": null,
+    "MaximumHitPoints": 10
+  },
+  "CurrentLocation": {
+    "XCoordinate": 0,
+    "YCoordinate": 1
+  },
+  "Version": "0.1.000"
+}
