@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using Engine.Services;
 
 namespace Engine.Models
@@ -8,6 +7,7 @@ namespace Engine.Models
     public abstract class LivingEntity : BaseNotificationClass
     {
         private string _name;
+        private int _dexterity;
         private int _currentHitPoints;
         private int _maximumHitPoints;
         private int _gold;
@@ -22,6 +22,16 @@ namespace Engine.Models
             private set
             {
                 _name = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int Dexterity
+        {
+            get => _dexterity;
+            private set
+            {
+                _dexterity = value;
                 OnPropertyChanged();
             }
         }
@@ -124,9 +134,11 @@ namespace Engine.Models
         public event EventHandler<string> OnActionPerformed;
         public event EventHandler OnKilled;
 
-        protected LivingEntity(string name, int maximumHitPoints, int currentHitPoints, int gold, int level = 1)
+        protected LivingEntity(string name, int maximumHitPoints, int currentHitPoints,
+                               int dexterity, int gold, int level = 1)
         {
             Name = name;
+            Dexterity = dexterity;
             MaximumHitPoints = maximumHitPoints;
             CurrentHitPoints = currentHitPoints;
             Gold = gold;

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\jarin\myprojects\WPFUI\WPFUI\obj\Debug\net5.0-windows\
+C:\Projects\SOSCSRPG\WPFUI\WPFUI\obj\Debug\net5.0-windows\
 WPFUI
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\jarin\myprojects\WPFUI\WPFUI\App.xaml
+C:\Projects\SOSCSRPG\WPFUI\WPFUI\App.xaml
 2-1781386626
 
 72096183226
-194-368348712
+1941713385106
 MainWindow.xaml;TradeScreen.xaml;
 
-True
+False
 

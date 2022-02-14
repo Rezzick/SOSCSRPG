@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jarin\\myprojects\\WPFUI\\Engine\\Engine.csproj": {}
+    "C:\\Projects\\SOSCSRPG\\WPFUI\\Engine\\Engine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jarin\\myprojects\\WPFUI\\Engine\\Engine.csproj": {
+    "C:\\Projects\\SOSCSRPG\\WPFUI\\Engine\\Engine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jarin\\myprojects\\WPFUI\\Engine\\Engine.csproj",
+        "projectUniqueName": "C:\\Projects\\SOSCSRPG\\WPFUI\\Engine\\Engine.csproj",
         "projectName": "Engine",
-        "projectPath": "C:\\Users\\jarin\\myprojects\\WPFUI\\Engine\\Engine.csproj",
-        "packagesPath": "C:\\Users\\jarin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jarin\\myprojects\\WPFUI\\Engine\\obj\\",
+        "projectPath": "C:\\Projects\\SOSCSRPG\\WPFUI\\Engine\\Engine.csproj",
+        "packagesPath": "C:\\Users\\jason.maxwell\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\SOSCSRPG\\WPFUI\\Engine\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jarin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jason.maxwell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +25,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://sydn:K8aC__kqnqx2r@nuget.sdynbg.com/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {

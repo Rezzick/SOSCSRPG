@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\jarin\myprojects\WPFUI\WPFUI\obj\Release\net5.0-windows\
+C:\Projects\SOSCSRPG\WPFUI\WPFUI\obj\Release\net5.0-windows\
 WPFUI_ae3cbkxh_wpftmp
 none
 false
 TRACE;RELEASE;NET;NET5_0;NETCOREAPP
-C:\Users\jarin\myprojects\WPFUI\WPFUI\App.xaml
-11407045341
+C:\Projects\SOSCSRPG\WPFUI\WPFUI\App.xaml
+2-1781386626
 
-51130444762
-388-990961087
-MainWindow.xaml;
+71388335325
+388-2099989763
+MainWindow.xaml;TradeScreen.xaml;
 
 True
 

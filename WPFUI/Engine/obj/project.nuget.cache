@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0cl8Jr1wM5M+8qRKOv1sqXzW9WnBWsHH7AbnodAtlprF73by1RBJg369CfILLdWB2M+YXhFTdcYTI48Qs2Z0GQ==",
+  "dgSpecHash": "ylrrdOS/i8qLsLdyjx5TwsxXxB0Q0OBAdutUFglHioQb07f+LNk8baEXp72wfPURlVcKusY0EXyQQmvSz5TFfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jarin\\myprojects\\WPFUI\\Engine\\Engine.csproj",
+  "projectFilePath": "C:\\Projects\\SOSCSRPG\\WPFUI\\Engine\\Engine.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
