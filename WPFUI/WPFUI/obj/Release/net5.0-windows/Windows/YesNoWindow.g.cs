@@ -60,7 +60,7 @@ namespace WPFUI.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WPFUI_ae3cbkxh_wpftmp;component/windows/yesnowindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WPFUI;component/windows/yesnowindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Windows\YesNoWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

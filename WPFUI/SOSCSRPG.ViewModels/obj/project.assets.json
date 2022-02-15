@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "SOSCSRPG.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/SOSCSRPG.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SOSCSRPG.Models.dll": {}
+        }
+      },
+      "SOSCSRPG.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "SOSCSRPG.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SOSCSRPG.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SOSCSRPG.Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SOSCSRPG.Models/1.0.0": {
+      "type": "project",
+      "path": "../SOSCSRPG.Models/SOSCSRPG.Models.csproj",
+      "msbuildProject": "../SOSCSRPG.Models/SOSCSRPG.Models.csproj"
+    },
+    "SOSCSRPG.Services/1.0.0": {
+      "type": "project",
+      "path": "../SOSCSRPG.Services/SOSCSRPG.Services.csproj",
+      "msbuildProject": "../SOSCSRPG.Services/SOSCSRPG.Services.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "SOSCSRPG.Models >= 1.0.0",
+      "SOSCSRPG.Services >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jason.maxwell\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.ViewModels\\SOSCSRPG.ViewModels.csproj",
+      "projectName": "SOSCSRPG.ViewModels",
+      "projectPath": "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.ViewModels\\SOSCSRPG.ViewModels.csproj",
+      "packagesPath": "C:\\Users\\jason.maxwell\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.ViewModels\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\jason.maxwell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://sydn:K8aC__kqnqx2r@nuget.sdynbg.com/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Models\\SOSCSRPG.Models.csproj": {
+              "projectPath": "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Models\\SOSCSRPG.Models.csproj"
+            },
+            "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Services\\SOSCSRPG.Services.csproj": {
+              "projectPath": "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Services\\SOSCSRPG.Services.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

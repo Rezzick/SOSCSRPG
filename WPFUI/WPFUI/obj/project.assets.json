@@ -113,6 +113,43 @@
         "runtime": {
           "bin/placeholder/Engine.dll": {}
         }
+      },
+      "SOSCSRPG.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/SOSCSRPG.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SOSCSRPG.Models.dll": {}
+        }
+      },
+      "SOSCSRPG.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "SOSCSRPG.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SOSCSRPG.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SOSCSRPG.Services.dll": {}
+        }
+      },
+      "SOSCSRPG.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "SOSCSRPG.Models": "1.0.0",
+          "SOSCSRPG.Services": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SOSCSRPG.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SOSCSRPG.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -390,11 +427,28 @@
       "type": "project",
       "path": "../Engine/Engine.csproj",
       "msbuildProject": "../Engine/Engine.csproj"
+    },
+    "SOSCSRPG.Models/1.0.0": {
+      "type": "project",
+      "path": "../SOSCSRPG.Models/SOSCSRPG.Models.csproj",
+      "msbuildProject": "../SOSCSRPG.Models/SOSCSRPG.Models.csproj"
+    },
+    "SOSCSRPG.Services/1.0.0": {
+      "type": "project",
+      "path": "../SOSCSRPG.Services/SOSCSRPG.Services.csproj",
+      "msbuildProject": "../SOSCSRPG.Services/SOSCSRPG.Services.csproj"
+    },
+    "SOSCSRPG.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../SOSCSRPG.ViewModels/SOSCSRPG.ViewModels.csproj",
+      "msbuildProject": "../SOSCSRPG.ViewModels/SOSCSRPG.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
-      "Engine >= 1.0.0"
+      "Engine >= 1.0.0",
+      "SOSCSRPG.Models >= 1.0.0",
+      "SOSCSRPG.ViewModels >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -431,6 +485,12 @@
           "projectReferences": {
             "C:\\Projects\\SOSCSRPG\\WPFUI\\Engine\\Engine.csproj": {
               "projectPath": "C:\\Projects\\SOSCSRPG\\WPFUI\\Engine\\Engine.csproj"
+            },
+            "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Models\\SOSCSRPG.Models.csproj": {
+              "projectPath": "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Models\\SOSCSRPG.Models.csproj"
+            },
+            "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.ViewModels\\SOSCSRPG.ViewModels.csproj": {
+              "projectPath": "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.ViewModels\\SOSCSRPG.ViewModels.csproj"
             }
           }
         }
