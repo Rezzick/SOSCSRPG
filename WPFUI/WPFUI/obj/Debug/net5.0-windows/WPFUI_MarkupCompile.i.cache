@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\App.xaml
-3573045350
+5-694473270
 
-8-1484461577
+102137519655
 198254665793
-MainWindow.xaml;TradeScreen.xaml;Windows\YesNoWindow.xaml;
+CharacterCreation.xaml;MainWindow.xaml;Startup.xaml;TradeScreen.xaml;Windows\YesNoWindow.xaml;
 
-True
+False
 

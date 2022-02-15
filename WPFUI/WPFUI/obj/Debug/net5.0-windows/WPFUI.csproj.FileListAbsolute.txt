@@ -102,3 +102,7 @@ C:\Projects\SOSCSRPG\WPFUI\WPFUI\obj\Debug\net5.0-windows\ref\WPFUI.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\obj\Debug\net5.0-windows\WPFUI.pdb
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\obj\Debug\net5.0-windows\WPFUI.genruntimeconfig.cache
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\GameData\GameDetails.json
+C:\Projects\SOSCSRPG\WPFUI\WPFUI\obj\Debug\net5.0-windows\CharacterCreation.g.cs
+C:\Projects\SOSCSRPG\WPFUI\WPFUI\obj\Debug\net5.0-windows\Startup.g.cs
+C:\Projects\SOSCSRPG\WPFUI\WPFUI\obj\Debug\net5.0-windows\CharacterCreation.baml
+C:\Projects\SOSCSRPG\WPFUI\WPFUI\obj\Debug\net5.0-windows\Startup.baml
