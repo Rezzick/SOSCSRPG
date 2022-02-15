@@ -133,7 +133,8 @@ namespace Engine.ViewModels
 
         public GameSession()
         {
-            int dexterity = RandomNumberGenerator.NumberBetween(3, 18);
+            int dexterity = DiceService.Instance.Roll(6, 3).Value;
+
             CurrentPlayer = new Player("Jason", "Fighter", 0, 10, 10, dexterity, 1000000);
 
             if (!CurrentPlayer.Inventory.Weapons.Any())

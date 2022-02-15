@@ -44,6 +44,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "D20Tek.Common.Net47": {
+              "target": "Package",
+              "version": "[3.3.5, )"
+            },
+            "D20Tek.DiceNotation.Net47": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
