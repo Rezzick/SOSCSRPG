@@ -1,8 +1,10 @@
-﻿using System.Linq;
+﻿using System.IO;
+using System.Linq;
 using Engine.Services;
 using Engine.Factories;
 using Engine.Models;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace Engine.ViewModels
 {
@@ -12,13 +14,23 @@ namespace Engine.ViewModels
 
         #region Properties
 
+        private GameDetails _gameDetails;
         private Player _currentPlayer;
         private Location _currentLocation;
         private Battle _currentBattle;
         private Monster _currentMonster;
         private Trader _currentTrader;
 
-        public string Version { get; } = "0.1.000";
+        [JsonIgnore]
+        public GameDetails GameDetails
+        {
+            get => _gameDetails;
+            set
+            {
+                _gameDetails = value;
+                OnPropertyChanged();
+            }
+        }
 
         [JsonIgnore]
         public World CurrentWorld { get; }
@@ -133,6 +145,8 @@ namespace Engine.ViewModels
 
         public GameSession()
         {
+            PopulateGameDetails();
+
             int dexterity = DiceService.Instance.Roll(6, 3).Value;
 
             CurrentPlayer = new Player("Jason", "Fighter", 0, 10, 10, dexterity, 1000000);
@@ -155,6 +169,8 @@ namespace Engine.ViewModels
 
         public GameSession(Player player, int xCoordinate, int yCoordinate)
         {
+            PopulateGameDetails();
+
             CurrentWorld = WorldFactory.CreateWorld();
             CurrentPlayer = player;
             CurrentLocation = CurrentWorld.LocationAt(xCoordinate, yCoordinate);
@@ -189,6 +205,22 @@ namespace Engine.ViewModels
             if (HasLocationToWest)
             {
                 CurrentLocation = CurrentWorld.LocationAt(CurrentLocation.XCoordinate - 1, CurrentLocation.YCoordinate);
+            }
+        }
+
+        private void PopulateGameDetails()
+        {
+            JObject gameDetails =
+                JObject.Parse(File.ReadAllText(".\\GameData\\GameDetails.json"));
+
+            GameDetails = new GameDetails(gameDetails["Name"].ToString(),
+                                          gameDetails["Version"].ToString());
+
+            foreach (JToken token in gameDetails["PlayerAttributes"])
+            {
+                GameDetails.PlayerAttributes.Add(new PlayerAttribute(token["Key"].ToString(),
+                                                                     token["DisplayName"].ToString(),
+                                                                     token["DiceNotation"].ToString()));
             }
         }
 
