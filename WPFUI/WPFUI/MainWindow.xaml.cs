@@ -5,12 +5,12 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Documents;
 using System.Windows.Input;
-using Microsoft.Win32;
-using WPFUI.Windows;
 using Engine.EventArgs;
 using Engine.Models;
 using Engine.Services;
 using Engine.ViewModels;
+using Microsoft.Win32;
+using WPFUI.Windows;
 
 namespace WPFUI
 {
@@ -31,7 +31,12 @@ namespace WPFUI
             InitializeUserInputActions();
 
             SetActiveGameSessionTo(new GameSession());
-            
+        }
+
+        public MainWindow(Player player) :
+            this()
+        {
+            _gameSession.CurrentPlayer = player;
         }
 
         private void OnClick_MoveNorth(object sender, RoutedEventArgs e)
@@ -99,7 +104,6 @@ namespace WPFUI
             _userInputActions.Add(Key.Q, () => SetTabFocusTo("QuestsTabItem"));
             _userInputActions.Add(Key.R, () => SetTabFocusTo("RecipesTabItem"));
             _userInputActions.Add(Key.T, () => OnClick_DisplayTradeScreen(this, new RoutedEventArgs()));
-
         }
 
         private void MainWindow_OnKeyDown(object sender, KeyEventArgs e)
@@ -132,8 +136,8 @@ namespace WPFUI
 
             _gameSession = gameSession;
             DataContext = _gameSession;
-            
-            //Clear out previous game's messages
+
+            // Clear out previous game's messages
             GameMessages.Document.Blocks.Clear();
 
             _messageBroker.OnMessageRaised += OnGameMessageRaised;

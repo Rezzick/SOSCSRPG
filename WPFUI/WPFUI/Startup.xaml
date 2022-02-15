@@ -9,6 +9,7 @@
         mc:Ignorable="d"
         FontSize="11pt"
         Title="{Binding Title}" Height="400" Width="400">
+
     <Grid Margin="10,10,10,10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -31,7 +32,7 @@
                 Width="125"
                 Content="Exit"
                 Click="Exit_OnClick"/>
-        
+
     </Grid>
-    
+
 </Window>

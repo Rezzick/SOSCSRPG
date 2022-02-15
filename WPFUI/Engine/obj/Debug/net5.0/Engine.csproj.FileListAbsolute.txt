@@ -28,10 +28,7 @@ C:\Users\jarin\myprojects\WPFUI\Engine\obj\Debug\net5.0\Engine.csproj.CoreCompil
 C:\Users\jarin\myprojects\WPFUI\Engine\obj\Debug\net5.0\Engine.dll
 C:\Users\jarin\myprojects\WPFUI\Engine\obj\Debug\net5.0\ref\Engine.dll
 C:\Users\jarin\myprojects\WPFUI\Engine\obj\Debug\net5.0\Engine.pdb
-C:\Projects\SOSCSRPG\WPFUI\Engine\obj\Debug\net5.0\Engine.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projects\SOSCSRPG\WPFUI\Engine\obj\Debug\net5.0\Engine.AssemblyInfoInputs.cache
-C:\Projects\SOSCSRPG\WPFUI\Engine\obj\Debug\net5.0\Engine.AssemblyInfo.cs
-C:\Projects\SOSCSRPG\WPFUI\Engine\obj\Debug\net5.0\Engine.csproj.CoreCompileInputs.cache
+C:\Projects\SOSCSRPG\WPFUI\Engine\bin\Debug\net5.0\GameData\GameDetails.json
 C:\Projects\SOSCSRPG\WPFUI\Engine\bin\Debug\net5.0\GameData\GameItems.xml
 C:\Projects\SOSCSRPG\WPFUI\Engine\bin\Debug\net5.0\GameData\Locations.xml
 C:\Projects\SOSCSRPG\WPFUI\Engine\bin\Debug\net5.0\GameData\Monsters.xml
@@ -54,8 +51,10 @@ C:\Projects\SOSCSRPG\WPFUI\Engine\bin\Debug\net5.0\Engine.deps.json
 C:\Projects\SOSCSRPG\WPFUI\Engine\bin\Debug\net5.0\Engine.dll
 C:\Projects\SOSCSRPG\WPFUI\Engine\bin\Debug\net5.0\ref\Engine.dll
 C:\Projects\SOSCSRPG\WPFUI\Engine\bin\Debug\net5.0\Engine.pdb
+C:\Projects\SOSCSRPG\WPFUI\Engine\obj\Debug\net5.0\Engine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\SOSCSRPG\WPFUI\Engine\obj\Debug\net5.0\Engine.AssemblyInfoInputs.cache
+C:\Projects\SOSCSRPG\WPFUI\Engine\obj\Debug\net5.0\Engine.AssemblyInfo.cs
+C:\Projects\SOSCSRPG\WPFUI\Engine\obj\Debug\net5.0\Engine.csproj.CoreCompileInputs.cache
 C:\Projects\SOSCSRPG\WPFUI\Engine\obj\Debug\net5.0\Engine.dll
 C:\Projects\SOSCSRPG\WPFUI\Engine\obj\Debug\net5.0\ref\Engine.dll
 C:\Projects\SOSCSRPG\WPFUI\Engine\obj\Debug\net5.0\Engine.pdb
-C:\Projects\SOSCSRPG\WPFUI\Engine\bin\Debug\net5.0\GameData\GameDetails.json
-C:\Projects\SOSCSRPG\WPFUI\Engine\obj\Debug\net5.0\Engine.csproj.AssemblyReference.cache
