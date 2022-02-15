@@ -18,62 +18,55 @@ namespace Engine.Services
 
         public static GameSession LoadLastSaveOrCreateNew(string fileName)
         {
-            if (!File.Exists(fileName))
-            {
-                return new GameSession();
-            }
+            //if (!File.Exists(fileName))
+            //{
+            //    return null;
+            //}
 
-            // Save game file exists, so create the GameSession object from it
-            try
-            {
-                JObject data = JObject.Parse(File.ReadAllText(fileName));
+            //// Save game file exists, so create the GameSession object from it.
+            //JObject data = JObject.Parse(File.ReadAllText(fileName));
 
-                // Populate Player object
-                Player player = CreatePlayer(data);
+            //// Populate Player object
+            //Player player = CreatePlayer(data);
 
-                int x = (int)data[nameof(GameSession.CurrentLocation)][nameof(Location.XCoordinate)];
-                int y = (int)data[nameof(GameSession.CurrentLocation)][nameof(Location.YCoordinate)];
+            //int x = (int)data[nameof(GameSession.CurrentLocation)][nameof(Location.XCoordinate)];
+            //int y = (int)data[nameof(GameSession.CurrentLocation)][nameof(Location.YCoordinate)];
 
-                return new GameSession(player, x, y);
-            }
-            catch(Exception e)
-            {
-                // If there was an error loading/deserializing the saved game,
-                // create a brand new GameSession object.
-                return new GameSession();
-            }
-
+            //// Create GameSession object with saved game data
+            //return new GameSession(player, x, y);
+            return null;
         }
 
         private static Player CreatePlayer(JObject data)
         {
-            string fileVersion = FileVersion(data);
+            //string fileVersion = FileVersion(data);
 
-            Player player;
+            //Player player;
 
-            switch(fileVersion)
-            {
-                case "0.1.000":
-                    player =
-                        new Player((string)data[nameof(GameSession.CurrentPlayer)][nameof(Player.Name)],
-                                   (string)data[nameof(GameSession.CurrentPlayer)][nameof(Player.CharacterClass)],
-                                   (int)data[nameof(GameSession.CurrentPlayer)][nameof(Player.ExperiencePoints)],
-                                   (int)data[nameof(GameSession.CurrentPlayer)][nameof(Player.MaximumHitPoints)],
-                                   (int)data[nameof(GameSession.CurrentPlayer)][nameof(Player.CurrentHitPoints)],
-                                   (int)data[nameof(GameSession.CurrentPlayer)][nameof(Player.Dexterity)],
-                                   (int)data[nameof(GameSession.CurrentPlayer)][nameof(Player.Gold)]);
-                    break;
-                default:
-                    throw new InvalidDataException($"File version '{fileVersion}' not recognized.");
-            }
+            //switch(fileVersion)
+            //{
+            //    case "0.1.000":
+            //        player =
+            //            new Player((string)data[nameof(GameSession.CurrentPlayer)][nameof(Player.Name)],
+            //                       (string)data[nameof(GameSession.CurrentPlayer)][nameof(Player.CharacterClass)],
+            //                       (int)data[nameof(GameSession.CurrentPlayer)][nameof(Player.ExperiencePoints)],
+            //                       (int)data[nameof(GameSession.CurrentPlayer)][nameof(Player.MaximumHitPoints)],
+            //                       (int)data[nameof(GameSession.CurrentPlayer)][nameof(Player.CurrentHitPoints)],
+            //                       (int)data[nameof(GameSession.CurrentPlayer)][nameof(Player.Dexterity)],
+            //                       (int)data[nameof(GameSession.CurrentPlayer)][nameof(Player.Gold)]);
+            //        break;
+            //    default:
+            //        throw new InvalidDataException($"File version '{fileVersion}' not recognized.");
+            //}
 
-            PopulatePlayerInventory(data, player);
+            //PopulatePlayerInventory(data, player);
 
-            PopulatePlayerQuests(data, player);
+            //PopulatePlayerQuests(data, player);
 
-            PopulatePlayerRecipes(data, player);
+            //PopulatePlayerRecipes(data, player);
 
-            return player;
+            //return player;
+            return null;
 
         }
 

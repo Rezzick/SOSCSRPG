@@ -58,3 +58,4 @@ C:\Projects\SOSCSRPG\WPFUI\Engine\obj\Debug\net5.0\Engine.csproj.CoreCompileInpu
 C:\Projects\SOSCSRPG\WPFUI\Engine\obj\Debug\net5.0\Engine.dll
 C:\Projects\SOSCSRPG\WPFUI\Engine\obj\Debug\net5.0\ref\Engine.dll
 C:\Projects\SOSCSRPG\WPFUI\Engine\obj\Debug\net5.0\Engine.pdb
+C:\Projects\SOSCSRPG\WPFUI\Engine\obj\Debug\net5.0\Engine.csproj.AssemblyReference.cache
