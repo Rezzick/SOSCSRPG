@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WPFUI",
+    "\\WPFUI\\Engine",
+    "\\WPFUI\\Engine\\Services"
   ],
-  "SelectedNode": "\\WPFUI.sln",
+  "SelectedNode": "\\WPFUI\\Engine\\Services\\SaveGameService.cs",
   "PreviewInSolutionExplorer": false
 }

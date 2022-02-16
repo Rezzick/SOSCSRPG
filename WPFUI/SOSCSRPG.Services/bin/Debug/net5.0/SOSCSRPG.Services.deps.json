@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "SOSCSRPG.Services/1.0.0": {
+        "dependencies": {
+          "SOSCSRPG.Models": "1.0.0"
+        },
+        "runtime": {
+          "SOSCSRPG.Services.dll": {}
+        }
+      },
+      "SOSCSRPG.Models/1.0.0": {
+        "runtime": {
+          "SOSCSRPG.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SOSCSRPG.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SOSCSRPG.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

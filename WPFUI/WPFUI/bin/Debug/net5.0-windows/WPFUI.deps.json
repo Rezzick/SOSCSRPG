@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v5.0": {
       "WPFUI/1.0.0": {
         "dependencies": {
-          "Engine": "1.0.0"
+          "Engine": "1.0.0",
+          "SOSCSRPG.Models": "1.0.0",
+          "SOSCSRPG.ViewModels": "1.0.0"
         },
         "runtime": {
           "WPFUI.dll": {}
@@ -96,6 +98,28 @@
         "runtime": {
           "Engine.dll": {}
         }
+      },
+      "SOSCSRPG.Models/1.0.0": {
+        "runtime": {
+          "SOSCSRPG.Models.dll": {}
+        }
+      },
+      "SOSCSRPG.Services/1.0.0": {
+        "dependencies": {
+          "SOSCSRPG.Models": "1.0.0"
+        },
+        "runtime": {
+          "SOSCSRPG.Services.dll": {}
+        }
+      },
+      "SOSCSRPG.ViewModels/1.0.0": {
+        "dependencies": {
+          "SOSCSRPG.Models": "1.0.0",
+          "SOSCSRPG.Services": "1.0.0"
+        },
+        "runtime": {
+          "SOSCSRPG.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -162,6 +186,21 @@
       "hashPath": "system.text.json.6.0.0.nupkg.sha512"
     },
     "Engine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SOSCSRPG.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SOSCSRPG.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SOSCSRPG.ViewModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
