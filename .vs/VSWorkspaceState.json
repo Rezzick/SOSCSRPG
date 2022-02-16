@@ -3,8 +3,9 @@
     "",
     "\\WPFUI",
     "\\WPFUI\\Engine",
+    "\\WPFUI\\Engine\\Models",
     "\\WPFUI\\Engine\\Services"
   ],
-  "SelectedNode": "\\WPFUI\\Engine\\Services\\SaveGameService.cs",
+  "SelectedNode": "\\WPFUI\\Engine\\Models\\GameDetails.cs",
   "PreviewInSolutionExplorer": false
 }

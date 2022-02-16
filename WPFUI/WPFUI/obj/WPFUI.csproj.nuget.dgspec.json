@@ -31,7 +31,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Models\\SOSCSRPG.Models.csproj": {
+                "projectPath": "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Models\\SOSCSRPG.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -246,6 +250,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Projects\\SOSCSRPG\\WPFUI\\Engine\\Engine.csproj": {
+                "projectPath": "C:\\Projects\\SOSCSRPG\\WPFUI\\Engine\\Engine.csproj"
+              },
               "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Models\\SOSCSRPG.Models.csproj": {
                 "projectPath": "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Models\\SOSCSRPG.Models.csproj"
               },

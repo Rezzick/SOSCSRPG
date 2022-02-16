@@ -121,7 +121,8 @@
           "D20Tek.Common.Net47": "3.3.5",
           "D20Tek.DiceNotation.Net47": "3.3.2",
           "Newtonsoft.Json": "13.0.1",
-          "PropertyChanged.Fody": "3.4.0"
+          "PropertyChanged.Fody": "3.4.0",
+          "SOSCSRPG.Models": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Engine.dll": {}
@@ -160,6 +161,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Engine": "1.0.0",
           "PropertyChanged.Fody": "3.4.0",
           "SOSCSRPG.Models": "1.0.0",
           "SOSCSRPG.Services": "1.0.0"

@@ -119,6 +119,19 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "SOSCSRPG.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "PropertyChanged.Fody": "3.4.0"
+        },
+        "compile": {
+          "bin/placeholder/SOSCSRPG.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SOSCSRPG.Models.dll": {}
+        }
       }
     }
   },
@@ -446,6 +459,11 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "SOSCSRPG.Models/1.0.0": {
+      "type": "project",
+      "path": "../SOSCSRPG.Models/SOSCSRPG.Models.csproj",
+      "msbuildProject": "../SOSCSRPG.Models/SOSCSRPG.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -454,7 +472,8 @@
       "D20Tek.DiceNotation.Net47 >= 3.3.2",
       "Fody >= 6.6.0",
       "Newtonsoft.Json >= 13.0.1",
-      "PropertyChanged.Fody >= 3.4.0"
+      "PropertyChanged.Fody >= 3.4.0",
+      "SOSCSRPG.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -488,7 +507,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Models\\SOSCSRPG.Models.csproj": {
+              "projectPath": "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Models\\SOSCSRPG.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

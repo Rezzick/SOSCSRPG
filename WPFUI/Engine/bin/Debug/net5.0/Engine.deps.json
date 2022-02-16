@@ -12,7 +12,8 @@
           "D20Tek.DiceNotation.Net47": "3.3.2",
           "Fody": "6.6.0",
           "Newtonsoft.Json": "13.0.1",
-          "PropertyChanged.Fody": "3.4.0"
+          "PropertyChanged.Fody": "3.4.0",
+          "SOSCSRPG.Models": "1.0.0"
         },
         "runtime": {
           "Engine.dll": {}
@@ -102,6 +103,14 @@
             "fileVersion": "6.0.21.52210"
           }
         }
+      },
+      "SOSCSRPG.Models/1.0.0": {
+        "dependencies": {
+          "PropertyChanged.Fody": "3.4.0"
+        },
+        "runtime": {
+          "SOSCSRPG.Models.dll": {}
+        }
       }
     }
   },
@@ -180,6 +189,11 @@
       "sha512": "sha512-zaJsHfESQvJ11vbXnNlkrR46IaMULk/gHxYsJphzSF+07kTjPHv+Oc14w6QEOfo3Q4hqLJgStUaYB9DBl0TmWg==",
       "path": "system.text.json/6.0.0",
       "hashPath": "system.text.json.6.0.0.nupkg.sha512"
+    },
+    "SOSCSRPG.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
