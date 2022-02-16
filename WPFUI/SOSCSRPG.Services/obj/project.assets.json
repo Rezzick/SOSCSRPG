@@ -2,9 +2,27 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "PropertyChanged.Fody/3.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.5.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
       "SOSCSRPG.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "PropertyChanged.Fody": "3.4.0"
+        },
         "compile": {
           "bin/placeholder/SOSCSRPG.Models.dll": {}
         },
@@ -15,6 +33,28 @@
     }
   },
   "libraries": {
+    "PropertyChanged.Fody/3.4.0": {
+      "sha512": "IAZyq0uolKo2WYm4mjx+q7A8fSGFT0x2e1s3y+ODn4JI0kqTDoo9GF2tdaypUzRFJZfdMxfC5HZW9QzdJLtOnA==",
+      "type": "package",
+      "path": "propertychanged.fody/3.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/PropertyChanged.Fody.props",
+        "lib/net40/PropertyChanged.dll",
+        "lib/net40/PropertyChanged.xml",
+        "lib/netstandard1.0/PropertyChanged.dll",
+        "lib/netstandard1.0/PropertyChanged.xml",
+        "lib/netstandard2.0/PropertyChanged.dll",
+        "lib/netstandard2.0/PropertyChanged.xml",
+        "lib/netstandard2.1/PropertyChanged.dll",
+        "lib/netstandard2.1/PropertyChanged.xml",
+        "propertychanged.fody.3.4.0.nupkg.sha512",
+        "propertychanged.fody.nuspec",
+        "weaver/PropertyChanged.Fody.dll",
+        "weaver/PropertyChanged.Fody.xcf"
+      ]
+    },
     "SOSCSRPG.Models/1.0.0": {
       "type": "project",
       "path": "../SOSCSRPG.Models/SOSCSRPG.Models.csproj",

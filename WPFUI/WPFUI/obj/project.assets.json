@@ -47,6 +47,21 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "PropertyChanged.Fody/3.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.5.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
       "System.ComponentModel.Annotations/5.0.0": {
         "type": "package",
         "compile": {
@@ -105,7 +120,8 @@
         "dependencies": {
           "D20Tek.Common.Net47": "3.3.5",
           "D20Tek.DiceNotation.Net47": "3.3.2",
-          "Newtonsoft.Json": "13.0.1"
+          "Newtonsoft.Json": "13.0.1",
+          "PropertyChanged.Fody": "3.4.0"
         },
         "compile": {
           "bin/placeholder/Engine.dll": {}
@@ -117,6 +133,9 @@
       "SOSCSRPG.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "PropertyChanged.Fody": "3.4.0"
+        },
         "compile": {
           "bin/placeholder/SOSCSRPG.Models.dll": {}
         },
@@ -141,6 +160,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "PropertyChanged.Fody": "3.4.0",
           "SOSCSRPG.Models": "1.0.0",
           "SOSCSRPG.Services": "1.0.0"
         },
@@ -225,6 +245,28 @@
         "newtonsoft.json.13.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
+      ]
+    },
+    "PropertyChanged.Fody/3.4.0": {
+      "sha512": "IAZyq0uolKo2WYm4mjx+q7A8fSGFT0x2e1s3y+ODn4JI0kqTDoo9GF2tdaypUzRFJZfdMxfC5HZW9QzdJLtOnA==",
+      "type": "package",
+      "path": "propertychanged.fody/3.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/PropertyChanged.Fody.props",
+        "lib/net40/PropertyChanged.dll",
+        "lib/net40/PropertyChanged.xml",
+        "lib/netstandard1.0/PropertyChanged.dll",
+        "lib/netstandard1.0/PropertyChanged.xml",
+        "lib/netstandard2.0/PropertyChanged.dll",
+        "lib/netstandard2.0/PropertyChanged.xml",
+        "lib/netstandard2.1/PropertyChanged.dll",
+        "lib/netstandard2.1/PropertyChanged.xml",
+        "propertychanged.fody.3.4.0.nupkg.sha512",
+        "propertychanged.fody.nuspec",
+        "weaver/PropertyChanged.Fody.dll",
+        "weaver/PropertyChanged.Fody.xcf"
       ]
     },
     "System.ComponentModel.Annotations/5.0.0": {

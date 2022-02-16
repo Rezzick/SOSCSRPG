@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/xUnMIn39jucvlvdyTOqwITrR9a6dqFbXPvG3gCJIVH5FfYEY/yezUCa//Hr8de1VfzYQQvfPi4V+jASR7o/Mg==",
+  "dgSpecHash": "3D38f7mv5B0drrqjwLJEpNzQTptklqaCBZ0UD6RSbYdLpJJkc2hE0dlggULtlpgi0R5rTlfDrALrV67XMoZRMQ==",
   "success": true,
   "projectFilePath": "C:\\Projects\\SOSCSRPG\\WPFUI\\WPFUI\\WPFUI.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\jason.maxwell\\.nuget\\packages\\d20tek.dicenotation.net47\\3.3.2\\d20tek.dicenotation.net47.3.3.2.nupkg.sha512",
     "C:\\Users\\jason.maxwell\\.nuget\\packages\\mathnet.numerics\\4.15.0\\mathnet.numerics.4.15.0.nupkg.sha512",
     "C:\\Users\\jason.maxwell\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\jason.maxwell\\.nuget\\packages\\propertychanged.fody\\3.4.0\\propertychanged.fody.3.4.0.nupkg.sha512",
     "C:\\Users\\jason.maxwell\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\jason.maxwell\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\jason.maxwell\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",

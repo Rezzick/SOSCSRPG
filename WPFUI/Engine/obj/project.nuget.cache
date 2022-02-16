@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "qE45+fQAkV5SCnCbhvpzBnmqEfk3mNrY6AsblmlseUSoJHrB2j2IwWM+2isB4Uy3Ji3Zso6L8aVbzUfqIrEMyA==",
+  "dgSpecHash": "aYQe7NIUw36nrB8oSzEz1xYiKMIomOqc7kv0q4cOwzbUqORmNY3T6T9QfglEh/JeCS7gipQZOUwAh08zpO9mEw==",
   "success": true,
   "projectFilePath": "C:\\Projects\\SOSCSRPG\\WPFUI\\Engine\\Engine.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jason.maxwell\\.nuget\\packages\\d20tek.common.net47\\3.3.5\\d20tek.common.net47.3.3.5.nupkg.sha512",
     "C:\\Users\\jason.maxwell\\.nuget\\packages\\d20tek.dicenotation.net47\\3.3.2\\d20tek.dicenotation.net47.3.3.2.nupkg.sha512",
+    "C:\\Users\\jason.maxwell\\.nuget\\packages\\fody\\6.6.0\\fody.6.6.0.nupkg.sha512",
     "C:\\Users\\jason.maxwell\\.nuget\\packages\\mathnet.numerics\\4.15.0\\mathnet.numerics.4.15.0.nupkg.sha512",
     "C:\\Users\\jason.maxwell\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\jason.maxwell\\.nuget\\packages\\propertychanged.fody\\3.4.0\\propertychanged.fody.3.4.0.nupkg.sha512",
     "C:\\Users\\jason.maxwell\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\jason.maxwell\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\jason.maxwell\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",

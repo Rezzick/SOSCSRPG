@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hxRPtAtb0j/kw33ewW0QcLqZyN3SMHR0K1TQDULej7D/WJZT//Mj670QDpAuKfaagDZvn0uGqoROU276xgLktQ==",
+  "dgSpecHash": "d0XmlE73mmaC83vnBerU6ITpzzO0Bt8np7fEROZHFySkdBp4T7+PqmCyuL6ArNuQ7opvE43odxMdqTR28V56wg==",
   "success": true,
   "projectFilePath": "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Services\\SOSCSRPG.Services.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jason.maxwell\\.nuget\\packages\\propertychanged.fody\\3.4.0\\propertychanged.fody.3.4.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -11,6 +11,7 @@ C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.ViewModels\obj\Debug\net5.0\SOSCSRPG.ViewMod
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.ViewModels\obj\Debug\net5.0\SOSCSRPG.ViewModels.AssemblyInfoInputs.cache
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.ViewModels\obj\Debug\net5.0\SOSCSRPG.ViewModels.AssemblyInfo.cs
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.ViewModels\obj\Debug\net5.0\SOSCSRPG.ViewModels.csproj.CoreCompileInputs.cache
+C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.ViewModels\obj\Debug\net5.0\SOSCSRPG.ViewModels.csproj.Fody.CopyLocal.cache
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.ViewModels\obj\Debug\net5.0\SOSCSRPG.ViewModels.csproj.CopyComplete
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.ViewModels\obj\Debug\net5.0\SOSCSRPG.ViewModels.dll
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.ViewModels\obj\Debug\net5.0\ref\SOSCSRPG.ViewModels.dll
