@@ -2,7 +2,9 @@ C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.Services\bin\Debug\net5.0\SOSCSRPG.Services.
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.Services\bin\Debug\net5.0\SOSCSRPG.Services.dll
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.Services\bin\Debug\net5.0\ref\SOSCSRPG.Services.dll
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.Services\bin\Debug\net5.0\SOSCSRPG.Services.pdb
+C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.Services\bin\Debug\net5.0\SOSCSRPG.Core.dll
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.Services\bin\Debug\net5.0\SOSCSRPG.Models.dll
+C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.Services\bin\Debug\net5.0\SOSCSRPG.Core.pdb
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.Services\bin\Debug\net5.0\SOSCSRPG.Models.pdb
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.Services\obj\Debug\net5.0\SOSCSRPG.Services.csproj.AssemblyReference.cache
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.Services\obj\Debug\net5.0\SOSCSRPG.Services.GeneratedMSBuildEditorConfig.editorconfig

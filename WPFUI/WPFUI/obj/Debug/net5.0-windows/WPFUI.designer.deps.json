@@ -6,26 +6,26 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "D20Tek.Common.Net47/3.3.5": {
+      "D20Tek.Common.Standard/3.3.5": {
         "dependencies": {
           "System.ComponentModel.Annotations": "5.0.0",
           "System.Text.Json": "6.0.0"
         },
         "runtime": {
-          "lib/netstandard2.0/D20Tek.Common.Net47.dll": {
+          "lib/netstandard2.1/D20Tek.Common.Standard.dll": {
             "assemblyVersion": "3.3.0.0",
             "fileVersion": "3.3.0.0"
           }
         }
       },
-      "D20Tek.DiceNotation.Net47/3.3.2": {
+      "D20Tek.DiceNotation.Standard/3.3.2": {
         "dependencies": {
-          "D20Tek.Common.Net47": "3.3.5",
+          "D20Tek.Common.Standard": "3.3.5",
           "MathNet.Numerics": "4.15.0",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
-          "lib/netstandard2.0/D20Tek.DiceNotation.Net47.dll": {
+          "lib/netstandard2.1/D20Tek.DiceNotation.Standard.dll": {
             "assemblyVersion": "3.3.0.0",
             "fileVersion": "3.3.0.0"
           }
@@ -97,19 +97,19 @@
     }
   },
   "libraries": {
-    "D20Tek.Common.Net47/3.3.5": {
+    "D20Tek.Common.Standard/3.3.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3Qa95Okmpe2vMqjwqBZLQykwvSL3qH8DaBTj+wXHhc4plxaTDXNiGLvjvBEcQ7Br2lRSVGiEOKViwiXpimDepA==",
-      "path": "d20tek.common.net47/3.3.5",
-      "hashPath": "d20tek.common.net47.3.3.5.nupkg.sha512"
+      "sha512": "sha512-fv8ovzyZhp6twWPgwimLVcWlPcrLxj4/SvKPdB3iFIVqzSLqSS0pWAAYxDclWMyA86UaB3NWCEY263TK/Fwvlw==",
+      "path": "d20tek.common.standard/3.3.5",
+      "hashPath": "d20tek.common.standard.3.3.5.nupkg.sha512"
     },
-    "D20Tek.DiceNotation.Net47/3.3.2": {
+    "D20Tek.DiceNotation.Standard/3.3.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-flxQWhfEnMica+C0HJDtokvy1/G69G5EbuN2JGZdGZ+mlgJfG7awBPslAmcJ/tu3UN6U42nRtpesSV3jquHDWw==",
-      "path": "d20tek.dicenotation.net47/3.3.2",
-      "hashPath": "d20tek.dicenotation.net47.3.3.2.nupkg.sha512"
+      "sha512": "sha512-OMZnbEsiiPXclgFU6pzxfc6nw7jIY5u735aanAupBhT5iXOU5hWqQImbrmzQmBHI9qAInFjz3Zak0JVySl6cCg==",
+      "path": "d20tek.dicenotation.standard/3.3.2",
+      "hashPath": "d20tek.dicenotation.standard.3.3.2.nupkg.sha512"
     },
     "MathNet.Numerics/4.15.0": {
       "type": "package",

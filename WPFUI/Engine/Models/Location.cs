@@ -2,7 +2,7 @@
 using System.Linq;
 using Newtonsoft.Json;
 using Engine.Factories;
-using Engine.Services;
+using SOSCSRPG.Core;
 
 namespace Engine.Models
 {

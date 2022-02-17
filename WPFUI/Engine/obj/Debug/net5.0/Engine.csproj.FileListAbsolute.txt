@@ -32,7 +32,9 @@ C:\Projects\SOSCSRPG\WPFUI\Engine\bin\Debug\net5.0\Engine.deps.json
 C:\Projects\SOSCSRPG\WPFUI\Engine\bin\Debug\net5.0\Engine.dll
 C:\Projects\SOSCSRPG\WPFUI\Engine\bin\Debug\net5.0\ref\Engine.dll
 C:\Projects\SOSCSRPG\WPFUI\Engine\bin\Debug\net5.0\Engine.pdb
+C:\Projects\SOSCSRPG\WPFUI\Engine\bin\Debug\net5.0\SOSCSRPG.Core.dll
 C:\Projects\SOSCSRPG\WPFUI\Engine\bin\Debug\net5.0\SOSCSRPG.Models.dll
+C:\Projects\SOSCSRPG\WPFUI\Engine\bin\Debug\net5.0\SOSCSRPG.Core.pdb
 C:\Projects\SOSCSRPG\WPFUI\Engine\bin\Debug\net5.0\SOSCSRPG.Models.pdb
 C:\Projects\SOSCSRPG\WPFUI\Engine\obj\Debug\net5.0\Engine.csproj.AssemblyReference.cache
 C:\Projects\SOSCSRPG\WPFUI\Engine\obj\Debug\net5.0\Engine.GeneratedMSBuildEditorConfig.editorconfig

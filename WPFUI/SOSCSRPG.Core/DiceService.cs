@@ -2,7 +2,7 @@
 using D20Tek.DiceNotation;
 using D20Tek.DiceNotation.DieRoller;
 
-namespace Engine.Services
+namespace SOSCSRPG.Core
 {
     public class DiceService : IDiceService
     {

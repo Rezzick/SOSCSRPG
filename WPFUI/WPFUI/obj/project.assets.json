@@ -2,31 +2,31 @@
   "version": 3,
   "targets": {
     "net5.0-windows7.0": {
-      "D20Tek.Common.Net47/3.3.5": {
+      "D20Tek.Common.Standard/3.3.5": {
         "type": "package",
         "dependencies": {
           "System.ComponentModel.Annotations": "5.0.0",
           "System.Text.Json": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/D20Tek.Common.Net47.dll": {}
+          "lib/netstandard2.1/D20Tek.Common.Standard.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/D20Tek.Common.Net47.dll": {}
+          "lib/netstandard2.1/D20Tek.Common.Standard.dll": {}
         }
       },
-      "D20Tek.DiceNotation.Net47/3.3.2": {
+      "D20Tek.DiceNotation.Standard/3.3.2": {
         "type": "package",
         "dependencies": {
-          "D20Tek.Common.Net47": "3.3.5",
+          "D20Tek.Common.Standard": "3.3.5",
           "MathNet.Numerics": "4.15.0",
           "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
-          "lib/netstandard2.0/D20Tek.DiceNotation.Net47.dll": {}
+          "lib/netstandard2.1/D20Tek.DiceNotation.Standard.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/D20Tek.DiceNotation.Net47.dll": {}
+          "lib/netstandard2.1/D20Tek.DiceNotation.Standard.dll": {}
         }
       },
       "MathNet.Numerics/4.15.0": {
@@ -118,10 +118,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "D20Tek.Common.Net47": "3.3.5",
-          "D20Tek.DiceNotation.Net47": "3.3.2",
           "Newtonsoft.Json": "13.0.1",
           "PropertyChanged.Fody": "3.4.0",
+          "SOSCSRPG.Core": "1.0.0",
           "SOSCSRPG.Models": "1.0.0"
         },
         "compile": {
@@ -131,11 +130,26 @@
           "bin/placeholder/Engine.dll": {}
         }
       },
+      "SOSCSRPG.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "D20Tek.Common.Standard": "3.3.5",
+          "D20Tek.DiceNotation.Standard": "3.3.2"
+        },
+        "compile": {
+          "bin/placeholder/SOSCSRPG.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SOSCSRPG.Core.dll": {}
+        }
+      },
       "SOSCSRPG.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "PropertyChanged.Fody": "3.4.0"
+          "PropertyChanged.Fody": "3.4.0",
+          "SOSCSRPG.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/SOSCSRPG.Models.dll": {}
@@ -148,6 +162,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "SOSCSRPG.Core": "1.0.0",
           "SOSCSRPG.Models": "1.0.0"
         },
         "compile": {
@@ -176,30 +191,28 @@
     }
   },
   "libraries": {
-    "D20Tek.Common.Net47/3.3.5": {
-      "sha512": "3Qa95Okmpe2vMqjwqBZLQykwvSL3qH8DaBTj+wXHhc4plxaTDXNiGLvjvBEcQ7Br2lRSVGiEOKViwiXpimDepA==",
+    "D20Tek.Common.Standard/3.3.5": {
+      "sha512": "fv8ovzyZhp6twWPgwimLVcWlPcrLxj4/SvKPdB3iFIVqzSLqSS0pWAAYxDclWMyA86UaB3NWCEY263TK/Fwvlw==",
       "type": "package",
-      "path": "d20tek.common.net47/3.3.5",
+      "path": "d20tek.common.standard/3.3.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "d20tek.common.net47.3.3.5.nupkg.sha512",
-        "d20tek.common.net47.nuspec",
-        "lib/netstandard2.0/D20Tek.Common.Net47.dll",
-        "lib/netstandard2.0/D20Tek.Common.Net47.xml"
+        "d20tek.common.standard.3.3.5.nupkg.sha512",
+        "d20tek.common.standard.nuspec",
+        "lib/netstandard2.1/D20Tek.Common.Standard.dll"
       ]
     },
-    "D20Tek.DiceNotation.Net47/3.3.2": {
-      "sha512": "flxQWhfEnMica+C0HJDtokvy1/G69G5EbuN2JGZdGZ+mlgJfG7awBPslAmcJ/tu3UN6U42nRtpesSV3jquHDWw==",
+    "D20Tek.DiceNotation.Standard/3.3.2": {
+      "sha512": "OMZnbEsiiPXclgFU6pzxfc6nw7jIY5u735aanAupBhT5iXOU5hWqQImbrmzQmBHI9qAInFjz3Zak0JVySl6cCg==",
       "type": "package",
-      "path": "d20tek.dicenotation.net47/3.3.2",
+      "path": "d20tek.dicenotation.standard/3.3.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "d20tek.dicenotation.net47.3.3.2.nupkg.sha512",
-        "d20tek.dicenotation.net47.nuspec",
-        "lib/netstandard2.0/D20Tek.DiceNotation.Net47.dll",
-        "lib/netstandard2.0/D20Tek.DiceNotation.Net47.xml"
+        "d20tek.dicenotation.standard.3.3.2.nupkg.sha512",
+        "d20tek.dicenotation.standard.nuspec",
+        "lib/netstandard2.1/D20Tek.DiceNotation.Standard.dll"
       ]
     },
     "MathNet.Numerics/4.15.0": {
@@ -471,6 +484,11 @@
       "type": "project",
       "path": "../Engine/Engine.csproj",
       "msbuildProject": "../Engine/Engine.csproj"
+    },
+    "SOSCSRPG.Core/1.0.0": {
+      "type": "project",
+      "path": "../SOSCSRPG.Core/SOSCSRPG.Core.csproj",
+      "msbuildProject": "../SOSCSRPG.Core/SOSCSRPG.Core.csproj"
     },
     "SOSCSRPG.Models/1.0.0": {
       "type": "project",

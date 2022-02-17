@@ -3,11 +3,13 @@ C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.ViewModels\bin\Debug\net5.0\SOSCSRPG.ViewMod
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.ViewModels\bin\Debug\net5.0\ref\SOSCSRPG.ViewModels.dll
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.ViewModels\bin\Debug\net5.0\SOSCSRPG.ViewModels.pdb
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.ViewModels\bin\Debug\net5.0\Engine.dll
+C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.ViewModels\bin\Debug\net5.0\SOSCSRPG.Core.dll
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.ViewModels\bin\Debug\net5.0\SOSCSRPG.Models.dll
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.ViewModels\bin\Debug\net5.0\SOSCSRPG.Services.dll
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.ViewModels\bin\Debug\net5.0\Engine.pdb
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.ViewModels\bin\Debug\net5.0\SOSCSRPG.Models.pdb
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.ViewModels\bin\Debug\net5.0\SOSCSRPG.Services.pdb
+C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.ViewModels\bin\Debug\net5.0\SOSCSRPG.Core.pdb
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.ViewModels\obj\Debug\net5.0\SOSCSRPG.ViewModels.csproj.AssemblyReference.cache
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.ViewModels\obj\Debug\net5.0\SOSCSRPG.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.ViewModels\obj\Debug\net5.0\SOSCSRPG.ViewModels.AssemblyInfoInputs.cache

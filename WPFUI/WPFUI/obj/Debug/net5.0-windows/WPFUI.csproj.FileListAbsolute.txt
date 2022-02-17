@@ -52,8 +52,8 @@ C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\WPFUI.runtimeconfig.de
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\WPFUI.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\ref\WPFUI.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\WPFUI.pdb
-C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\D20Tek.Common.Net47.dll
-C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\D20Tek.DiceNotation.Net47.dll
+C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\D20Tek.Common.Standard.dll
+C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\D20Tek.DiceNotation.Standard.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\MathNet.Numerics.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\PropertyChanged.dll
@@ -61,12 +61,14 @@ C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\System.Runtime.Compile
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\System.Text.Encodings.Web.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\System.Text.Json.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\Engine.dll
+C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.Core.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.Models.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.Services.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.ViewModels.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\Engine.pdb
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.Models.pdb
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.ViewModels.pdb
+C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.Core.pdb
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.Services.pdb
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\obj\Debug\net5.0-windows\WPFUI.csproj.AssemblyReference.cache
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\obj\Debug\net5.0-windows\MainWindow.baml

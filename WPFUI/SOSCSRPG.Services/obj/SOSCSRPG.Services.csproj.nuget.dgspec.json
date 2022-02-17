@@ -4,6 +4,74 @@
     "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Services\\SOSCSRPG.Services.csproj": {}
   },
   "projects": {
+    "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Core\\SOSCSRPG.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Core\\SOSCSRPG.Core.csproj",
+        "projectName": "SOSCSRPG.Core",
+        "projectPath": "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Core\\SOSCSRPG.Core.csproj",
+        "packagesPath": "C:\\Users\\jason.maxwell\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jason.maxwell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://sydn:K8aC__kqnqx2r@nuget.sdynbg.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "D20Tek.Common.Standard": {
+              "target": "Package",
+              "version": "[3.3.5, )"
+            },
+            "D20Tek.DiceNotation.Standard": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Models\\SOSCSRPG.Models.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -31,7 +99,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Core\\SOSCSRPG.Core.csproj": {
+                "projectPath": "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Core\\SOSCSRPG.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -102,6 +174,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Core\\SOSCSRPG.Core.csproj": {
+                "projectPath": "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Core\\SOSCSRPG.Core.csproj"
+              },
               "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Models\\SOSCSRPG.Models.csproj": {
                 "projectPath": "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Models\\SOSCSRPG.Models.csproj"
               }
