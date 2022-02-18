@@ -56,14 +56,6 @@
           }
         }
       },
-      "PropertyChanged.Fody/3.4.0": {
-        "runtime": {
-          "lib/netstandard2.1/PropertyChanged.dll": {
-            "assemblyVersion": "3.4.0.0",
-            "fileVersion": "3.4.0.0"
-          }
-        }
-      },
       "System.ComponentModel.Annotations/5.0.0": {},
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "runtime": {
@@ -107,7 +99,6 @@
       },
       "SOSCSRPG.Models/1.0.0": {
         "dependencies": {
-          "PropertyChanged.Fody": "3.4.0",
           "SOSCSRPG.Core": "1.0.0"
         },
         "runtime": {
@@ -149,13 +140,6 @@
       "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
       "path": "newtonsoft.json/13.0.1",
       "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
-    },
-    "PropertyChanged.Fody/3.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-IAZyq0uolKo2WYm4mjx+q7A8fSGFT0x2e1s3y+ODn4JI0kqTDoo9GF2tdaypUzRFJZfdMxfC5HZW9QzdJLtOnA==",
-      "path": "propertychanged.fody/3.4.0",
-      "hashPath": "propertychanged.fody.3.4.0.nupkg.sha512"
     },
     "System.ComponentModel.Annotations/5.0.0": {
       "type": "package",

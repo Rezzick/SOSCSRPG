@@ -3,9 +3,8 @@
     "",
     "\\WPFUI",
     "\\WPFUI\\Engine",
-    "\\WPFUI\\Engine\\ViewModels",
-    "\\WPFUI\\WPFUI"
+    "\\WPFUI\\Engine\\ViewModels"
   ],
-  "SelectedNode": "\\WPFUI\\WPFUI\\App.xaml.cs",
+  "SelectedNode": "\\WPFUI\\Engine\\ViewModels\\GameSession.cs",
   "PreviewInSolutionExplorer": false
 }

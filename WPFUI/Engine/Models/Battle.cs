@@ -1,6 +1,7 @@
 ﻿using System;
-using SOSCSRPG.Models.EventArgs;
+using SOSCSRPG.Core;
 using Engine.Services;
+using SOSCSRPG.Models.EventArgs;
 
 namespace Engine.Models
 {

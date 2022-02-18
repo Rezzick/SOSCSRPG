@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SOSCSRPG.Models.EventArgs
+namespace SOSCSRPG.Core
 {
     public class GameMessageEventArgs : System.EventArgs
     {

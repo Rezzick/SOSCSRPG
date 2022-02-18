@@ -5,7 +5,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Documents;
 using System.Windows.Input;
-using SOSCSRPG.Models.EventArgs;
+using SOSCSRPG.Core;
 using Engine.Models;
 using Engine.Services;
 using Engine.ViewModels;

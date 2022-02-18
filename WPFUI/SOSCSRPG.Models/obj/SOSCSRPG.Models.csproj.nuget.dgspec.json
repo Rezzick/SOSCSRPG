@@ -123,6 +123,7 @@
               "version": "[6.6.0, )"
             },
             "PropertyChanged.Fody": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[3.4.0, )"
             }

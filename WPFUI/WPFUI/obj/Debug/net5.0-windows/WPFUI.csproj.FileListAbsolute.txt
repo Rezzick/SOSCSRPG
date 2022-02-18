@@ -56,7 +56,6 @@ C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\D20Tek.Common.Standard
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\D20Tek.DiceNotation.Standard.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\MathNet.Numerics.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
-C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\PropertyChanged.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\System.Runtime.CompilerServices.Unsafe.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\System.Text.Encodings.Web.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\System.Text.Json.dll
@@ -66,9 +65,9 @@ C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.Models.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.Services.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.ViewModels.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\Engine.pdb
+C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.Core.pdb
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.Models.pdb
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.ViewModels.pdb
-C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.Core.pdb
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.Services.pdb
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\obj\Debug\net5.0-windows\WPFUI.csproj.AssemblyReference.cache
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\obj\Debug\net5.0-windows\MainWindow.baml

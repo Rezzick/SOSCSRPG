@@ -125,7 +125,6 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
-          "PropertyChanged.Fody": "3.4.0",
           "SOSCSRPG.Core": "1.0.0",
           "SOSCSRPG.Models": "1.0.0"
         },
@@ -154,7 +153,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "PropertyChanged.Fody": "3.4.0",
           "SOSCSRPG.Core": "1.0.0"
         },
         "compile": {
@@ -594,6 +592,7 @@
             "version": "[6.6.0, )"
           },
           "PropertyChanged.Fody": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[3.4.0, )"
           }
