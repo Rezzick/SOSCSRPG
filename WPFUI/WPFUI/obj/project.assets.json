@@ -99,21 +99,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Engine/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "Newtonsoft.Json": "13.0.1",
-          "SOSCSRPG.Core": "1.0.0",
-          "SOSCSRPG.Models": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Engine.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Engine.dll": {}
-        }
-      },
       "SOSCSRPG.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -159,7 +144,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Engine": "1.0.0",
           "SOSCSRPG.Models": "1.0.0",
           "SOSCSRPG.Services": "1.0.0"
         },
@@ -440,11 +424,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Engine/1.0.0": {
-      "type": "project",
-      "path": "../Engine/Engine.csproj",
-      "msbuildProject": "../Engine/Engine.csproj"
-    },
     "SOSCSRPG.Core/1.0.0": {
       "type": "project",
       "path": "../SOSCSRPG.Core/SOSCSRPG.Core.csproj",
@@ -468,7 +447,6 @@
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
-      "Engine >= 1.0.0",
       "SOSCSRPG.Core >= 1.0.0",
       "SOSCSRPG.Models >= 1.0.0",
       "SOSCSRPG.ViewModels >= 1.0.0"
@@ -506,9 +484,6 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Projects\\SOSCSRPG\\WPFUI\\Engine\\Engine.csproj": {
-              "projectPath": "C:\\Projects\\SOSCSRPG\\WPFUI\\Engine\\Engine.csproj"
-            },
             "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Core\\SOSCSRPG.Core.csproj": {
               "projectPath": "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Core\\SOSCSRPG.Core.csproj"
             },

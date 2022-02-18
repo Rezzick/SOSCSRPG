@@ -6,11 +6,11 @@ using System.Windows.Controls;
 using System.Windows.Documents;
 using System.Windows.Input;
 using SOSCSRPG.Core;
-using Engine.Models;
-using Engine.Services;
-using Engine.ViewModels;
+using SOSCSRPG.Models;
 using Microsoft.Win32;
 using WPFUI.Windows;
+using SOSCSRPG.Services;
+using SOSCSRPG.ViewModels;
 
 namespace WPFUI
 {

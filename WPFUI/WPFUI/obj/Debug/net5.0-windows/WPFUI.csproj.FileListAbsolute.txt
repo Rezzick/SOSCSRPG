@@ -59,12 +59,10 @@ C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\System.Runtime.CompilerServices.Unsafe.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\System.Text.Encodings.Web.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\System.Text.Json.dll
-C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\Engine.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.Core.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.Models.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.Services.dll
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.ViewModels.dll
-C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\Engine.pdb
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.Core.pdb
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.Models.pdb
 C:\Projects\SOSCSRPG\WPFUI\WPFUI\bin\Debug\net5.0-windows\SOSCSRPG.ViewModels.pdb

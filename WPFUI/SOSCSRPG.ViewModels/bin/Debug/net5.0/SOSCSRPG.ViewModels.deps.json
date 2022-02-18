@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v5.0": {
       "SOSCSRPG.ViewModels/1.0.0": {
         "dependencies": {
-          "Engine": "1.0.0",
           "Fody": "6.6.0",
           "PropertyChanged.Fody": "3.4.0",
           "SOSCSRPG.Models": "1.0.0",
@@ -101,16 +100,6 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
-        }
-      },
-      "Engine/1.0.0": {
-        "dependencies": {
-          "Newtonsoft.Json": "13.0.1",
-          "SOSCSRPG.Core": "1.0.0",
-          "SOSCSRPG.Models": "1.0.0"
-        },
-        "runtime": {
-          "Engine.dll": {}
         }
       },
       "SOSCSRPG.Core/1.0.0": {
@@ -216,11 +205,6 @@
       "sha512": "sha512-zaJsHfESQvJ11vbXnNlkrR46IaMULk/gHxYsJphzSF+07kTjPHv+Oc14w6QEOfo3Q4hqLJgStUaYB9DBl0TmWg==",
       "path": "system.text.json/6.0.0",
       "hashPath": "system.text.json.6.0.0.nupkg.sha512"
-    },
-    "Engine/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "SOSCSRPG.Core/1.0.0": {
       "type": "project",

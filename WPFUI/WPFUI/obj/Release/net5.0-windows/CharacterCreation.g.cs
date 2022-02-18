@@ -54,7 +54,7 @@ namespace WPFUI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WPFUI;component/charactercreation.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WPFUI_ae3cbkxh_wpftmp;component/charactercreation.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CharacterCreation.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

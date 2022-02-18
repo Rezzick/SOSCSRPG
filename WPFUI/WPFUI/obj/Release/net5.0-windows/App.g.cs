@@ -65,7 +65,7 @@ namespace WPFUI {
             
             #line default
             #line hidden
-            System.Uri resourceLocater = new System.Uri("/WPFUI;component/app.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WPFUI_ae3cbkxh_wpftmp;component/app.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\App.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
