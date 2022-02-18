@@ -3,6 +3,7 @@ using System.Windows;
 using Microsoft.Win32;
 using Engine.Services;
 using Engine.ViewModels;
+using Engine.Models;
 
 namespace WPFUI
 {
@@ -34,12 +35,12 @@ namespace WPFUI
 
             if (openFileDialog.ShowDialog() == true)
             {
-                GameSession gameSession = SaveGameService.LoadLastSaveOrCreateNew(openFileDialog.FileName);
+                GameState gameState = SaveGameService.LoadLastSaveOrCreateNew(openFileDialog.FileName);
 
                 MainWindow mainWindow =
-                    new MainWindow(gameSession.CurrentPlayer,
-                                   gameSession.CurrentLocation.XCoordinate,
-                                   gameSession.CurrentLocation.YCoordinate);
+                    new MainWindow(gameState.Player,
+                                   gameState.XCoordinate,
+                                   gameState.YCoordinate);
 
                 mainWindow.Show();
                 Close();
