@@ -9,3 +9,14 @@ C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.Core\obj\Debug\net5.0\SOSCSRPG.Core.csproj.C
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.Core\obj\Debug\net5.0\SOSCSRPG.Core.dll
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.Core\obj\Debug\net5.0\ref\SOSCSRPG.Core.dll
 C:\Projects\SOSCSRPG\WPFUI\SOSCSRPG.Core\obj\Debug\net5.0\SOSCSRPG.Core.pdb
+C:\Users\jarin\myprojects\WPFUI\SOSCSRPG.Core\bin\Debug\net5.0\SOSCSRPG.Core.deps.json
+C:\Users\jarin\myprojects\WPFUI\SOSCSRPG.Core\bin\Debug\net5.0\SOSCSRPG.Core.dll
+C:\Users\jarin\myprojects\WPFUI\SOSCSRPG.Core\bin\Debug\net5.0\ref\SOSCSRPG.Core.dll
+C:\Users\jarin\myprojects\WPFUI\SOSCSRPG.Core\bin\Debug\net5.0\SOSCSRPG.Core.pdb
+C:\Users\jarin\myprojects\WPFUI\SOSCSRPG.Core\obj\Debug\net5.0\SOSCSRPG.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jarin\myprojects\WPFUI\SOSCSRPG.Core\obj\Debug\net5.0\SOSCSRPG.Core.AssemblyInfoInputs.cache
+C:\Users\jarin\myprojects\WPFUI\SOSCSRPG.Core\obj\Debug\net5.0\SOSCSRPG.Core.AssemblyInfo.cs
+C:\Users\jarin\myprojects\WPFUI\SOSCSRPG.Core\obj\Debug\net5.0\SOSCSRPG.Core.csproj.CoreCompileInputs.cache
+C:\Users\jarin\myprojects\WPFUI\SOSCSRPG.Core\obj\Debug\net5.0\SOSCSRPG.Core.dll
+C:\Users\jarin\myprojects\WPFUI\SOSCSRPG.Core\obj\Debug\net5.0\ref\SOSCSRPG.Core.dll
+C:\Users\jarin\myprojects\WPFUI\SOSCSRPG.Core\obj\Debug\net5.0\SOSCSRPG.Core.pdb

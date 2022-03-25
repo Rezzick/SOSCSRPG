@@ -377,23 +377,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jason.maxwell\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\jarin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Core\\SOSCSRPG.Core.csproj",
+      "projectUniqueName": "C:\\Users\\jarin\\myprojects\\WPFUI\\SOSCSRPG.Core\\SOSCSRPG.Core.csproj",
       "projectName": "SOSCSRPG.Core",
-      "projectPath": "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Core\\SOSCSRPG.Core.csproj",
-      "packagesPath": "C:\\Users\\jason.maxwell\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\SOSCSRPG\\WPFUI\\SOSCSRPG.Core\\obj\\",
+      "projectPath": "C:\\Users\\jarin\\myprojects\\WPFUI\\SOSCSRPG.Core\\SOSCSRPG.Core.csproj",
+      "packagesPath": "C:\\Users\\jarin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jarin\\myprojects\\WPFUI\\SOSCSRPG.Core\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jason.maxwell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jarin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -401,8 +397,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://sydn:K8aC__kqnqx2r@nuget.sdynbg.com/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -444,7 +439,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }
